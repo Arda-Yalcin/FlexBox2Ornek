@@ -1,0 +1,53 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.birthstone-regular {
+  font-family: "Birthstone", cursive;
+  font-weight: 500;
+  font-size: 30px;
+  font-style: normal;
+}
+
+
+
+.header{
+    align-items:center;
+    color: white;
+    display: flex;
+    background-color: black;
+    justify-content:space-around;
+    
+}
+.header > .nav{ 
+    display: flex;
+}
+.header >.nav >a{
+    color: white;
+        text-decoration: none;
+padding: 5px 20px;
+}
+.header > .nav > a:hover{
+    background-color: white;
+    color: black;
+}
+.header> .button >button{
+    
+    width: 80px;
+    height: 30px;
+    color: white;
+    background-color: black;
+    border: 2px solid gold;
+    border-radius: 5px;
+}
+.header> .button >button:hover{
+    
+    width: 80px;
+    height: 30px;
+    color: white;
+    background-color: darkgoldenrod;
+    border: 2px solid black;
+    border-radius: 5px;
+}
